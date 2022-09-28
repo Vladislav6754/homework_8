@@ -1,0 +1,179 @@
+@import url("reset.css");
+@import url("stylesheet.css");
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+body
+{
+	font-family: 'Lato';
+}
+.about {
+
+}
+
+.about__title {
+
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+
+.about__text {
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 48px;
+}
+
+.about__learn-title {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	margin-bottom: 25px;
+}
+.about-learn-list{
+	
+}
+.about-learn-list li{
+	line-height: 160%;
+	color: #424551;
+}
+.about-learn-list li::before{
+	background: url('../img/icons/check.png') 0 0px  no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 16px;
+	/* min-height: 20px; */
+}
+.about-learn-list li:not(:last-child){
+	margin-bottom: 50px;
+}
+.about-learn-list li:last-child{
+	margin-bottom: 200px;
+}
+.curator {
+
+	
+}
+.curator__course {
+	font-weight: 700;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+
+.curator__name {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 16px;
+}
+
+.curator__position {
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+
+.curator__list {
+	font-weight: 700;
+	line-height: 160%;
+	color: #424551;
+}
+.curator__list li:not(:last-child)
+{
+	margin-bottom: 5px;
+}
+.curator__list li:last-child{
+	margin-bottom: 32px;
+}
+.curator__list li:nth-child(1)::before
+{
+	background: url('../img/icons/Star.png') 0 0px  no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.curator__list li:nth-child(2)::before
+{
+	background: url('../img/icons/Play.png') 0 0px  no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.curator__list li:nth-child(3)::before
+{
+	background: url('../img/icons/Profile.png') 0 0px  no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.curator__text {
+	line-height: 160%;
+	color: #424551;
+}
+
+.buttons-pseudo {
+
+	
+}
+
+
+.buttons-pseudo__active {
+	margin: 20px 0;
+}
+.buttons-pseudo__active:active{
+	color: red;
+}
+
+.buttons-pseudo__hover {
+	margin-bottom: 20px;
+}
+.buttons-pseudo__hover:hover{
+	background-color: red;
+	width: 45px;
+}
+
+.buttons-pseudo__target {
+	margin-bottom: 20px;
+}
+
+.curator__name:target{
+	background-color: gold;
+}
+.buttons-pseudo__target::after
+{
+	content: " (Cody Fisher)";
+}
+.buttons-pseudo__visited {
+	margin-bottom: 20px;
+}
+.buttons-pseudo__visited:visited
+{
+	color: red;
+}
+.buttons-pseudo__focus {
+	margin-bottom: 20px;
+			
+}
+.buttons-pseudo__focus input:focus
+{
+	background-color: red;
+}
+.buttons-pseudo__focus::after
+{
+	content: ' <- threre input putton';
+}
